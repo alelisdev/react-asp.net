@@ -1,0 +1,6 @@
+<svg preserveAspectRatio="xMidYMid meet" data-bbox="52 40 96 120" viewBox="52 40 96 120" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true">
+    <g>
+        <path fill="#ED00F5" d="M104.239 128.258h-8.478v-22.209h8.478v22.209z" data-color="1"></path>
+        <path d="M128.585 74.307v-5.842C128.585 52.77 115.764 40 100 40c-15.764 0-28.587 12.77-28.587 28.465v5.842H52V160h96V74.307h-19.415zm-48.696-5.842c0-11.041 9.022-20.028 20.111-20.028s20.111 8.987 20.111 20.028v5.842H79.889v-5.842zm59.637 83.096h-79.05V82.747h79.05v68.814z" fill="#ED00F5" data-color="1"></path>
+    </g>
+</svg>
