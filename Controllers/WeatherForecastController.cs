@@ -8,7 +8,34 @@ using Microsoft.Extensions.Logging;
 namespace thorapps.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
+    //[Route("[controller]")]
+
+    public class EmailController : ControllerBase {
+        [HttpPost]
+        public async Task<IActionResult> PostAsync(string firstName, string lastName, string email, string jobTitle, string phone, string company, string country, string message)
+        {
+            if(firstName != "test")
+            {
+                return Ok("Success");
+            } else
+            {
+                return Ok("Failed");
+            }
+        }
+
+        [HttpPost]
+        public bool Post(object  data)
+        {
+            if(!IsNullOrEmpty(data.country) && data.country != "test") {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    }
+
+
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]

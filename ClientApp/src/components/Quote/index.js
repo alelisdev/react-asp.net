@@ -16,7 +16,7 @@ function Quote() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        axios.post(`${config.REACT_APP_SERVER_URL}/api/mail`, JSON.stringify({firstName, lastName, email, jobTitle, phone, company, country, message}))
+        axios.post('/api/mail', JSON.stringify({firstName, lastName, email, jobTitle, phone, company, country, message}))
         .then(res => console.log(res))
         .catch(err => console.log(err));
     }
